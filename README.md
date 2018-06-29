@@ -2,12 +2,18 @@
 
 This is a "bare minimum" repo that shows one way to configure TypeScript Project References with lerna. There are a lot of different ways you can set things up and this isn't intended to be authoratitive guidance or exclusionary of other ways that might work better in your project.
 
+# Install lerna
+
+```sh
+yarn global add lerna
+```
+
 # Setting up this repo
 
 ```
 > git clone https://github.com/RyanCavanaugh/learn-a.git
 > cd learn-a
-> npm install
+> yarn install
 > lerna bootstrap
 > tsc -b packages
 ```
