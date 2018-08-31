@@ -5,10 +5,13 @@
   ],
   "scripts": {
     "build": "tsc -b",
-    "clean:build": "rm -rf ./packages/*/build"
+    "clean:build": "rm -rf ./packages/*/build",
+    "lint": "tslint --project ./packages/tsconfig.lint.json",
+    "lint:fix": "tslint --project ./packages/tsconfig.lint.json --fix"
   },
   "devDependencies": {
     "lerna": "^3.2.1",
+    "tslint": "^5.11.0",
     "typescript": "^3.0.3"
   }
 }

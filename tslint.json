@@ -1,0 +1,23 @@
+{
+  "extends": ["tslint:recommended"],
+  "rules": {
+    // "arrow-parens": [true, "ban-single-arg-parens"],
+    // "jsx-boolean-value": [false],
+    // "jsx-curly-spacing": "never",
+    // "jsx-no-multiline-js": false,
+    // "jsx-no-lambda": false,
+    // "interface-name": [true, "never-prefix"],
+    // "max-classes-per-file": [false],
+    // "max-line-length": {
+    //   "options": [140]
+    // },
+    // "no-empty": false,
+    // "no-empty-interface": false,
+    // "no-unused-variable": false,
+    // "no-var-requires": false,
+    // "object-literal-key-quotes": [true, "as-needed"],
+    "quotemark": [true, "single", "jsx-double"]
+    // "semicolon": [true, "never"],
+    // "trailing-comma": [true, { "multiline": "ignore", "singleline": "ignore" }]
+  }
+}
