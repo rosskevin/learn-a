@@ -28,6 +28,7 @@ packages/pkg2/src/index.ts:2:20 - error TS2307: Cannot find module '@ryancavanau
 
 2 import { fn } from '@ryancavanaugh/pkg1/foo';
 ```
+**Solution:** If you receive an error like this and you expect a flattened final build structure, you may need to setup the `baseUrl` and `paths`.  See `pkg3/tsconfig.json`.
 
 # Setting up this repo
 
