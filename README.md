@@ -1,4 +1,4 @@
-# Lerna + Project References + direct file import (e.g. not an index export)
+# Lerna monorepo + yarn workspaces + typescript project references + flattened build
 
 Lerna, yarn workspaces, and a direct file import (not just index) with a flattened build output.
 
