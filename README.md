@@ -7,10 +7,10 @@
 - typescript project references for incremental build setup according to https://www.typescriptlang.org/docs/handbook/project-references.html
 - reused configs
 
-## Building both cjs and esm?
+## Building both cjs and esm
 
-- `yarn build` will build the cjs to `lib/cjs` in each project
-- `yarn build:esm` will build the esm to `lib/esm` in each project
+- `yarn build` will build the cjs (incremental builds using `tsc -b`) to `lib/cjs` in each project
+- `yarn build:esm` will build the esm (non-incremetal) to `lib/esm` in each project
 
 ## Setting up this repo
 
