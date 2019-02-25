@@ -2,8 +2,9 @@
   "name": "@ryancavanaugh/pkg3",
   "version": "3.0.2",
   "description": "",
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
+  "main": "lib/cjs/index.js",
+  "typings": "lib/cjs/index.d.ts",
+  "module": "lib/esm/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "tsc -b ."
