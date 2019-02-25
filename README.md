@@ -6,7 +6,6 @@ Lerna, yarn workspaces, with cjs build
 
 ```
 > git clone https://github.com/rosskevin/learn-a.git
-> git checkout yarn-workspaces-project-ref-build
 > cd learn-a
 > yarn install
 > lerna bootstrap
