@@ -10,7 +10,7 @@
 ## Building both cjs and esm?
 
 - `yarn build` will build the cjs to `lib/cjs` in each project
-- `yarn build:esm` will (???) build the esm to `lib/esm` in each project
+- `yarn build:esm` will build the esm to `lib/esm` in each project
 
 ## Setting up this repo
 

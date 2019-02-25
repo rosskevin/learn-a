@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/cjs/index.js",
   "typings": "lib/cjs/index.d.ts",
+  "module": "lib/esm/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "tsc -b ."
