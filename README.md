@@ -11,3 +11,7 @@ Lerna, yarn workspaces, with cjs build
 > lerna bootstrap
 > yarn clean:build && yarn build
 ```
+
+# rollup for esm and cjs
+
+`yarn bundle`

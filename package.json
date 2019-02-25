@@ -7,11 +7,15 @@
     "build": "tsc -b",
     "build:clean": "rm -rf ./packages/*/lib && yarn build",
     "lint": "tslint --project ./packages/tsconfig.lint.json",
-    "lint:fix": "tslint --project ./packages/tsconfig.lint.json --fix"
+    "lint:fix": "tslint --project ./packages/tsconfig.lint.json --fix",
+    "bundle": "rm -rf ./packages/*/dist && lerna exec --stream --parallel -- ../../node_modules/.bin/rollup -c ../../rollup.config.js"
   },
   "devDependencies": {
     "lerna": "^3.13.0",
     "tslint": "^5.13.0",
-    "typescript": "next"
+    "typescript": "next",
+    "rollup": "^1.2.2",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-typescript2": "^0.19.2"
   }
 }

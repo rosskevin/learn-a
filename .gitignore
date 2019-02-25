@@ -1,2 +1,5 @@
 **/node_modules
 lerna-debug.log
+packages/*/.rpt2_cache
+packages/*/dist
+packages/*/lib
