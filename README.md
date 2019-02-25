@@ -1,6 +1,6 @@
-# Lerna monorepo + yarn workspaces + typescript project references + tsc -b cjs and esm
+# Lerna monorepo + yarn workspaces + typescript project references + tsc -b
 
-Lerna, yarn workspaces, with both cjs and esm builds
+Lerna, yarn workspaces, with cjs build
 
 # Setting up this repo
 
