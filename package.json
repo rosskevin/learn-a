@@ -5,6 +5,7 @@
   ],
   "scripts": {
     "build": "tsc -b",
+    "build:esm": "lerna exec --stream --parallel -- ../../node_modules/.bin/tsc --outDir lib/esm --module esnext --target esnext",
     "build:clean": "rm -rf ./packages/*/lib && yarn build",
     "lint": "tslint --project ./packages/tsconfig.lint.json",
     "lint:fix": "tslint --project ./packages/tsconfig.lint.json --fix"
