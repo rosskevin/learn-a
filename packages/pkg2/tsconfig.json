@@ -2,12 +2,7 @@
   "extends": "../tsconfig.settings.json",
   "compilerOptions": {
     "outDir": "lib",
-    "rootDir": "src",
-    "traceResolution": true,
-    "baseUrl": "./",
-    "paths": {
-      "@ryancavanaugh/pkg1/*": ["../pkg1/src/*"]
-    }
+    "rootDir": "src"
   },
   "references": [{ "path": "../pkg1" }]
 }

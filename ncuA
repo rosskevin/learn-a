@@ -1,0 +1,7 @@
+ncu -a "$@"
+cd packages/pkg1
+ncu -a "$@"
+cd ../pkg2
+ncu -a "$@"
+cd ../pkg3
+ncu -a "$@"
