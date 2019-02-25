@@ -5,7 +5,7 @@
   ],
   "scripts": {
     "build": "tsc -b",
-    "build:clean": "rm -rf ./packages/*/build && yarn build",
+    "build:clean": "rm -rf ./packages/*/lib && yarn build",
     "lint": "tslint --project ./packages/tsconfig.lint.json",
     "lint:fix": "tslint --project ./packages/tsconfig.lint.json --fix"
   },
